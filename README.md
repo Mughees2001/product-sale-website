@@ -1,2 +1,2 @@
 # product-sale-website
-Just accepted and challenge and made this website
+Just accepted a challenge and made this website
