@@ -1,0 +1,104 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    text-align:center;
+}
+
+img{
+    width:400px;
+    height:550px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin:auto 0 auto auto;
+  }
+h1{
+    font-family: 'Fraunces', serif;
+}
+h3{
+    margin-top:40px;
+    letter-spacing: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:0.8rem;
+    font-weight: normal;
+}
+p{
+    font-size:14px;
+    font-family: 'Montserrat', sans-serif;
+    width:78%;
+    height:30%;
+    line-height:2;
+
+}
+.left-container{
+    display:inline-block;
+    margin:auto 0 auto auto;
+    position:relative;
+    top:83px;
+    left:4px;
+}
+
+.right-container{
+    width:340px;
+    height:550px;
+    background-color:white;
+    display:inline-block;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin:100px 0 auto auto;
+    text-align:left;
+    padding-left:60px;
+}
+
+.btn {
+    background: #46b887;
+    background-image: -webkit-linear-gradient(top, #46b887, #3da176);
+    background-image: -moz-linear-gradient(top, #46b887, #3da176);
+    background-image: -ms-linear-gradient(top, #46b887, #3da176);
+    background-image: -o-linear-gradient(top, #46b887, #3da176);
+    background-image: linear-gradient(to bottom, #46b887, #3da176);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 0px 0px #607B71;
+    -moz-box-shadow: 0px 0px 0px #607B71;
+    box-shadow: 0px 0px 0px #607B71;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 15px 80px 15px 80px;
+    text-decoration: none;
+    display:inline-block;
+    margin:40px auto;
+}
+
+  
+  .btn:hover {
+    background: #1e754f;
+    background-image: -webkit-linear-gradient(top, #1e754f, #155739);
+    background-image: -moz-linear-gradient(top, #1e754f, #155739);
+    background-image: -ms-linear-gradient(top, #1e754f, #155739);
+    background-image: -o-linear-gradient(top, #1e754f, #155739);
+    background-image: linear-gradient(to bottom, #1e754f, #155739);
+    text-decoration: none;
+  }
+  
+  .attribution { 
+    margin-top:130px;
+    font-size: 11px; 
+    text-align: center;
+    color: hsl(228, 45%, 44%);
+    }
+.discount-price
+{
+    font-family: 'Fraunces', serif;
+    color:#3da176;
+    font-size:32px
+}
+.original-price{
+    margin-left:20px;
+    font-family: 'Fraunces', serif;
+    color:grey;
+    font-size:13px;
+    text-decoration:line-through;
+    position:relative;
+    bottom:5px;
+}
