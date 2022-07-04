@@ -8,10 +8,11 @@ img{
     height:550px;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
-    margin:auto 0 auto auto;
+    margin:auto 0 39.5px auto;
   }
 h1{
     font-family: 'Fraunces', serif;
+    width:80%;
 }
 h3{
     margin-top:40px;
