@@ -103,3 +103,38 @@ p{
     position:relative;
     bottom:5px;
 }
+.mobile-view-img{
+    display:none;
+}
+/* NOW MAKING CSS FOR MOBILE PHONE */
+@media only screen and (max-width: 700px ) {
+    
+    .laptop-view-img{
+        display:none;
+    }
+    .mobile-view-img{
+        display:inline-block;
+        width:531.65px;
+        height:445.27px;
+        margin-bottom:0px;
+        border-bottom-left-radius:0px;
+        border-bottom-right-radius:0px;
+        border-top-right-radius:8px;
+        margin-right:8px;
+
+    }
+    .right-container{
+        width:80%;
+        height:90%;
+        margin-top:78px;
+        border-top-right-radius:0px;
+        border-top-left-radius:0px;
+        border-bottom-right-radius:8px;
+        border-bottom-left-radius:8px;
+
+    }
+
+
+
+  }
+
